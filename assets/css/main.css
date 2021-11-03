@@ -1,0 +1,180 @@
+.header {
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    z-index: 1;
+    float: left;
+}
+.header_list {
+    list-style: none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.header_items .header-menu {
+    display: none;
+}
+.header-menu {
+    display: none;
+    width: 40px;
+}
+.header_items {
+    line-height: 40px; 
+}
+.header_items a {
+    margin: 6px;
+}
+.header_items:hover {
+    border-radius: 6px;
+    background-color: #cccc;
+}
+.container {
+    display: block;
+    margin: 36px 0 0 130px;
+    position: relative;
+}
+.container__GT {
+    text-align: center;
+    display: inline-block;
+    margin: 0 28%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.header__container {
+    font-size: 20px;
+    margin: 12px 0 6px 0;
+    
+}
+.content__container {
+    margin: 0 10px 10px;
+}
+.container__list {
+    display: block;
+    font-size: 15px;
+    
+}
+.container__learn {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+.learn__content {
+    display: inline-flex;
+    margin-bottom: 30px;
+}
+.learn__heading {
+    float: left;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.learn__slide-1 {
+    font-size: 20px;
+    background-color: #3c55ed;
+    color: white;
+    display: inline-block;
+    padding: 40px;
+    margin: 5px 5px 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 220px;
+    max-height: 100px;
+    text-align: center;
+    line-height: 20px;
+}
+.learn__slide-1:hover {
+    opacity: 0.9;
+}
+.container__note {
+    margin: 31px 0;
+}
+.footer {
+    background-color: #f5f5f5;
+    padding: 14px 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+}
+.footer span {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    line-height: 33px;
+}
+.container__note {
+    margin-left: 115px;
+}
+.container h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-next {
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #6900ff;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 119px;
+    cursor: pointer;
+}
+.btn-next:hover {
+    opacity: 0.8;
+}
+.not-next {
+    background-color: #757575;
+}
+.not-next:hover {
+    opacity: 1;
+    cursor: none;
+}
+
+/* bài tập */
+.learn__ex {
+    display: flex;
+}
+.bai-tap {
+    font-size: 20px;
+    background-color: #3c55ed;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    margin: 5px 5px 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 220px;
+    max-height: 100px;
+    text-align: center;
+    line-height: 20px;
+}
+.learn__ex:hover .noidung-baitap {
+    display: block;
+    animation: fadeIn ease-in .4s;
+}
+
+.noidung-baitap {
+    border: 1px solid #3700ff;
+    color: white;
+    background-color: #6900ff;
+    max-width: 500px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 12px;
+    position: relative;
+    display: none;
+}
+.noidung-baitap::after {
+    content: "";
+    border-width: 20px 27px;
+    border-style: solid;
+    border-color: transparent #6900ff transparent transparent;
+    margin-left: -52px;
+    float: left;
+    margin-top: -8px;
+   
+}

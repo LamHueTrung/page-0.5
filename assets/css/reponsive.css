@@ -1,0 +1,74 @@
+/* mobile */
+
+@media (max-width: 736px) {
+    html {
+        width: 736px;
+        position: relative;
+    }
+    .header {
+        width: 265px;
+        position: absolute;
+    }
+    
+    .header_items {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 30px;
+       
+    }
+    .header_items a{
+        display: inline-block;
+    }
+    .container {
+        margin: 370px 0 0 0;
+        display: block;
+        position: relative;
+        margin-bottom: 80px;
+        position: absolute;
+    }
+    .container__GT {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .header__container {
+        font-size: 55px;
+    }
+    .container__list {
+        font-size: 26px;
+    }
+    .learn__heading { 
+        font-size: 50px;
+    }
+    .learn__content {
+        height: auto;
+        width: 100%;
+        display: inherit;
+    }
+    .learn__slide-1 {
+        max-width: 100%;
+        font-size: 35px;
+        margin: 5px 5%;
+    }
+    .footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: 0;
+    }
+    .footer span {
+        font-size: 30px;
+    }
+    .container h1 {
+        font-size: 30px;
+        text-align: inherit;
+        margin-bottom: 20px;
+    }
+    .video {
+        width: 90%;
+        margin: auto;
+    }
+    .container__note {
+        margin-left: 5%;
+    }
+}
