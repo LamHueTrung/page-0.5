@@ -18,25 +18,200 @@
             <li class="header_items">
                 <a href="https://lamhuetrung.github.io/index.html">
                     <i class="fas fa-home"></i>
-                    <span>Home</span>
+                    <span></span>
+                </a>
+            </li>
+           
+            <li class="header_items">
+                <a href="#bai-tap">
+                    <i class="fas fa-book"></i>
+                    <span></span>
                 </a>
             </li>
             <li class="header_items">
                 <a href="https://www.facebook.com/T%E1%BB%B1-h%E1%BB%8Dc-l%E1%BA%ADp-Tr%C3%ACnh-c%C3%B9ng-LHT-110968584718753">
                     <i class="fas fa-question"></i>
-                    <span>Hỏi</span>
+                    <span></span>
                 </a>
             </li>
         </ul>
     </header>
     <div class="container">
-        <h1>Một số kiến thức mà bạn cần biết</h1>
-        <video class="video" controls>
-            <source src="./assets/video/video.webm" type="video/mp4">
-        </video>
-        <div class="container__note">
-            <h2>Nhắc nhở: Các bạn nên lên google tìm hiểu thêm về những cú pháp, kiểu dữ liệu, toán tử nha.</h2>
+        <div class="gird__column-2">
+            <div class="content_LT">
+                <div class="content__BT">
+                    <h1 class="BT__tieu-de">Lý Thuyết</h1>
+                    <span class="BT__noi-dung">Một Số kiến thức các bạn cần nắm: </span>
+                    <span class="BT__noi-dung--TD">1.Các cú pháp thường sử dụng</span>
+                    <pre class="BT__output-1">
+                        <code class="BT__output">
+include => khai báo thư viện
+printf => in ra
+scanf => nhập vào 
+return => trả về (cập nhật giá trị)
+if() {} else => câu điều kiện
+for() {} => vòng lặp for
+while() {} => vòng lặp while
+                    </code>
+                    </pre>
+                    <span class="BT__noi-dung">Lưu ý:những cú pháp, vòng lặp trên chỉ là những cái thường gặp, trên thực tế còn rất nhiều nhé.</span>
+                    <span class="BT__noi-dung--TD">2.Hai thư viện thường gặp.</span>
+                    <pre class="BT__output-1">
+                        <code class="BT__output">
+stdio.h: Cung cấp cốt lõi của những khả năng nhập trong C
+math.h: Cho việc tính các hàm số thông dụng.
+                    </code>
+                    </pre>
+                    <span class="BT__noi-dung">Lưu ý: Các bạn ấn vào <a class="link-an-vao" href="https://www.vietjack.com/thu-vien-c/">Tại đây</a> để tìm hiểu thêm nhiều thư viện khác nhé .</span>
+                    <span class="BT__noi-dung--TD">3.Toán tử số học (Arithmetic Operators).</span>
+                    <table class="BT__output-1">
+                        <thead>
+                        <tr>
+                        <th>Toán tử</th>
+                        <th>Ý nghĩa</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td>+</td>
+                        <td>phép toán cộng</td>
+                        </tr>
+                        <tr>
+                        <td>–</td>
+                        <td>phép toán trừ</td>
+                        </tr>
+                        <tr>
+                        <td>*</td>
+                        <td>phép toán nhân</td>
+                        </tr>
+                        <tr>
+                        <td>/</td>
+                        <td>phép toán chia</td>
+                        </tr>
+                        <tr>
+                        <td>%</td>
+                        <td>phép toán lấy số dư(chỉ áp dụng cho số nguyên)</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                    <span class="BT__noi-dung">Lưu ý: Các bạn ấn vào <a class="link-an-vao" href="https://nguyenvanhieu.vn/toan-tu-trong-c/">Tại đây</a> để tìm hiểu thêm nhiều thư viện khác nhé.</span>
+                    <span class="BT__noi-dung--TD">4.Toán tử gán (Assignment Operators).</span>
+                    <table class="BT__output-1">
+                        <thead>
+                        <tr>
+                        <th>Toán tử</th>
+                        <th>Viết gọn</th>
+                        <th>Viết đầy đủ</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td>=</td>
+                        <td>a = b</td>
+                        <td>a = b</td>
+                        </tr>
+                        <tr>
+                        <td>+=</td>
+                        <td>a += b</td>
+                        <td>a = a+b</td>
+                        </tr>
+                        <tr>
+                        <td>-=</td>
+                        <td>a -= b</td>
+                        <td>a = a-b</td>
+                        </tr>
+                        <tr>
+                        <td>*=</td>
+                        <td>a *= b</td>
+                        <td>a = a*b</td>
+                        </tr>
+                        <tr>
+                        <td>/=</td>
+                        <td>a /= b</td>
+                        <td>a = a/b</td>
+                        </tr>
+                        <tr>
+                        <td>%=</td>
+                        <td>a %= b</td>
+                        <td>a = a%b</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                    <span class="BT__noi-dung">Lưu ý:Các bạn ấn vào <a class="link-an-vao" href="https://nguyenvanhieu.vn/toan-tu-trong-c/">Tại đây</a> để tìm hiểu thêm nhiều thư viện khác nhé..</span>
+                    <span class="BT__noi-dung--TD">5.Toán tử quan hệ (Relational Operators).</span>
+                    <table class="BT__output-1">
+                        <thead>
+                        <tr>
+                        <th>Toán tử</th>
+                        <th>Ý nghĩa</th>
+                        <th>Ví dụ</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td>==</td>
+                        <td>so sánh bằng</td>
+                        <td><code>7 == 3</code> cho kết quả là 0</td>
+                        </tr>
+                        <tr>
+                        <td>&gt;</td>
+                        <td>so sánh lớn hơn</td>
+                        <td><code>5 &gt; 1</code> cho kết quả là 1</td>
+                        </tr>
+                        <tr>
+                        <td>&lt;</td>
+                        <td>so sánh nhỏ hơn</td>
+                        <td><code>5 &lt; 2</code> cho kết quả là 0</td>
+                        </tr>
+                        <tr>
+                        <td>!=</td>
+                        <td>so sánh khác</td>
+                        <td><code>5 != 4</code> cho kết quả là 1</td>
+                        </tr>
+                        <tr>
+                        <td>&gt;=</td>
+                        <td>lớn hơn hoặc bằng</td>
+                        <td><code>8 &gt;= 3</code> cho kết quả là 1</td>
+                        </tr>
+                        <tr>
+                        <td>&lt;=</td>
+                        <td>nhỏ hơn hoặc bằng</td>
+                        <td><code>5 &lt;= 0</code> cho kết quả là 0</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                    <span class="BT__noi-dung">Lưu ý:Các bạn ấn vào <a class="link-an-vao" href="https://nguyenvanhieu.vn/toan-tu-trong-c/">Tại đây</a> để tìm hiểu thêm nhiều thư viện khác nhé..</span>
+                    <span class="BT__noi-dung--TD">6.Các toán tử khác.</span>
+                    <pre class="BT__output-1">
+                        <code class="BT__output">
+Toán tử logic (Logical Operators)
+
+    Toán tử &&: là toán tử AND, trả về true khi và chỉ khi tất cả các toán hạng đều đúng
+    Toán tử ||: là toán tử OR, trả về true khi có ít nhất 1 toán hạng đúng.
+    Toán tử !: là toán tử NOT, phủ định giá trị của toán hạng.
+
+Toán tử tăng, giảm (Increment and Decrement)
+
+    Toán tử ++: Tăng giá trị lên 1 đơn vị
+    Toán tử --: Giảm giá trị đi 1 đơn vị                        
+                    </code>
+                    </pre>
+                    <span class="BT__noi-dung">Lưu ý:Các bạn ấn vào <a class="link-an-vao" href="https://nguyenvanhieu.vn/toan-tu-trong-c/">Tại đây</a> để tìm hiểu thêm nhiều thư viện khác nhé..</span>
+                    
+                </div>
+            </div>
+            <div class="content__HD">
+                <h1>Một số kiến thức mà bạn cần biết</h1>
+                <video class="video" controls>
+                    <source src="./assets/video/video.webm" type="video/mp4">
+                </video>
+                <div class="container__note">
+                    <h2>Nhắc nhở: Các bạn nên lên google tìm hiểu thêm về những cú pháp, kiểu dữ liệu, toán tử nha.</h2>
+                </div>
         </div>
+    </div>
+</body>
+</html>
     </div>
 </body>
 </html>
