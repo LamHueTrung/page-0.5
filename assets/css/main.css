@@ -184,6 +184,8 @@
 .content_LT {
     margin: 0 20px 0 0;
     width: 30%;
+    height: 800px;
+    overflow: auto;
 }
 .content__HD {
     width: 70%;
