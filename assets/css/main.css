@@ -195,12 +195,12 @@
 }
 .BT__noi-dung {
     display: -webkit-box;
-    font-size: 14px;
+    font-size: 18px;
     margin: 5px 0;
 }
 .BT__noi-dung--TD {
     display: -webkit-box;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
 }
 .BT__output {
