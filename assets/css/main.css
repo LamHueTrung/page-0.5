@@ -5,6 +5,10 @@
     z-index: 1;
     float: left;
 }
+.header_list-mobile {
+    list-style: none;
+    padding: 0;
+}
 .header_list {
     list-style: none;
     font-size: 20px;
