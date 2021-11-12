@@ -1,74 +1,78 @@
 /* mobile */
 
-@media (max-width: 740px) {
+@media (max-width: 739px) {
     html {
-        width: 736px;
-        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: auto;
     }
     .header {
-        width: 265px;
-        position: absolute;
-    }
-    
-    .header_items {
-        font-size: 50px;
-        line-height: 50px;
-        margin-bottom: 30px;
-       
-    }
-    .header_items a{
-        display: inline-block;
+        position: relative;
+        margin: 8px 0px;
     }
     .container {
-        margin: 370px 0 0 0;
-        display: block;
-        position: relative;
-        margin-bottom: 80px;
         position: absolute;
+        margin: 50px 0 0 0;
     }
-    .container__GT {
+    .header-menu {
+        display: block;
+    }
+    .header_items a {
+        margin-left: 8px;
+    }
+    .header_list {
+        background: aliceblue;
+        border: 1px solid #266cec;
+        border-radius: 4px;
+        margin: 0 0 0 5px;
+        padding-left: 0px;
+    }
+    .header_list-mobile {
+        display: none;
+        padding-left: 0;
+        z-index: 1;
+        list-style: none;
+    }
+    .header_list:hover .header_list-mobile {
+        display: block;
+        background: none;
+    }
+    .menu-mobile {
+        margin-left: 11px;
+    }
+    .gird__column-2 {
+        display: block;
+    }
+    .content_LT {
+        margin: 0 20px;
         width: 90%;
-        margin: 0 5%;
     }
-    .header__container {
-        font-size: 55px;
-    }
-    .container__list {
-        font-size: 26px;
-    }
-    .learn__heading { 
-        font-size: 50px;
-    }
-    .learn__content {
-        height: auto;
+    .container {
         width: 100%;
-        display: inherit;
-    }
-    .learn__slide-1 {
-        max-width: 100%;
-        font-size: 35px;
-        margin: 5px 5%;
-    }
-    .footer {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: 0;
-    }
-    .footer span {
-        font-size: 30px;
     }
     .container h1 {
-        font-size: 30px;
+        margin-left: 25px;
+        font-size: 25px;
         text-align: inherit;
-        margin-bottom: 20px;
+    }
+    .content__HD {
+        width: 100%;
     }
     .video {
         width: 90%;
-        margin: auto;
     }
     .container__note {
-        margin-left: 5%;
+        margin-left: 24px;
     }
+    .BT__output-1 {
+        max-width: 90%;
+    }
+    .BT__noi-dung {
+        width: 90%;
+    }
+    .content__BT {
+        width: 90%;
+    }
+    
 }
+
