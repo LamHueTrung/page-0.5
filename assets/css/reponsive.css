@@ -42,13 +42,11 @@
     }
     .gird__column-2 {
         display: block;
+        width: 92%;
     }
     .content_LT {
         margin: 0 20px;
-        width: 90%;
-    }
-    .container {
-        width: 100%;
+        width: 54%;
     }
     .container h1 {
         margin-left: 25px;
@@ -56,7 +54,7 @@
         text-align: inherit;
     }
     .content__HD {
-        width: 90%;
+        width: 60%;
     }
     .video {
         width: 90%;
@@ -64,16 +62,10 @@
     .container__note {
         margin-left: 24px;
     }
-    .BT__output-1 {
-        max-width: 90%;
+    .btn-next {
+            margin: 10px 15px;
     }
-    .BT__noi-dung {
-        width: 90%;
+    .container__learn  {
+            margin-left: 0px;
     }
-    .content__BT {
-        width: 90%;
-    }
-    
-    
 }
-
