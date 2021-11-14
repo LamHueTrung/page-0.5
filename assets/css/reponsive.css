@@ -9,6 +9,8 @@
     .header {
         position: relative;
         margin: 8px 0px;
+        width: 100%;
+        margin: 0;
     }
     .container {
         position: absolute;
@@ -19,12 +21,13 @@
     }
     .header_items a {
         margin-left: 8px;
+        display: block;
     }
     .header_list {
         background: aliceblue;
         border: 1px solid #266cec;
         border-radius: 4px;
-        margin: 0 0 0 5px;
+        margin: 0;
         padding-left: 0px;
     }
     .header_list-mobile {
@@ -49,9 +52,9 @@
         width: 82%;
     }
     .container h1 {
-        margin-left: 25px;
         font-size: 25px;
         text-align: inherit;
+        margin: 20px 10px;
     }
     .content__HD {
         width: 82%;
